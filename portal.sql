@@ -155,6 +155,23 @@ CREATE TABLE `det_trans_booking` (
 
 /*Data for the table `det_trans_booking` */
 
+/*Table structure for table `event` */
+
+DROP TABLE IF EXISTS `event`;
+
+CREATE TABLE `event` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `id_event` varchar(20) DEFAULT NULL,
+  `tgl_mulai` date DEFAULT NULL,
+  `tgl_selesai` date DEFAULT NULL,
+  `nama` varchar(20) DEFAULT NULL,
+  `keterangan` text,
+  `status` enum('Selesai','Coming Soon') DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+/*Data for the table `event` */
+
 /*Table structure for table `is_users` */
 
 DROP TABLE IF EXISTS `is_users`;
