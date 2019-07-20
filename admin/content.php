@@ -155,6 +155,15 @@ else {
 	elseif ($_GET['module'] == 'form_user') {
 		include "modules/user/form.php";
 	}
+
+	elseif ($_GET['module'] == 'event') {
+		include "modules/event/view.php";
+	}
+	// jika halaman konten yang dipilih form user, panggil file form user
+	elseif ($_GET['module'] == 'form_event') {
+		include "modules/event/form.php";
+	}
+
 	// -----------------------------------------------------------------------------
 	// jika halaman konten yang dipilih profil, panggil file view profil
 	elseif ($_GET['module'] == 'profil') {

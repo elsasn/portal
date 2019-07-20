@@ -155,6 +155,30 @@ if ($_SESSION['hak_akses']=='Super Admin') { ?>
   </li>
   <?php
   }
+
+
+  // jika menu event dipilih, menu event aktif
+  if ($_GET["module"]=="event" || $_GET["module"]=="form_user") { ?>
+  <li class="active">
+    <a href="?module=event"><i class="fa fa-calendar"></i> Event</a>
+  </li>
+  <?php
+  }
+  // jika tidak, menu user tidak aktif
+  else { ?>
+  <li>
+    <a href="?module=event"><i class="fa fa-calendar"></i> Event</a>
+  </li>
+  <?php
+  }
+  // jika menu ubah password dipilih, menu ubah password aktif
+  if ($_GET["module"]=="event") { ?>
+  <li>
+    <a href="?module=event"><i class="fa fa-calendar"></i> Event</a>
+  </li>
+  <?php
+  }
+
   // jika menu user dipilih, menu user aktif
   if ($_GET["module"]=="user" || $_GET["module"]=="form_user") { ?>
   <li class="active">
