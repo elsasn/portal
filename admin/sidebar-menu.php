@@ -34,6 +34,7 @@ if ($_SESSION['hak_akses']=='Super Admin') { ?>
       <li><a href="?module=motto"><i class="fa fa-circle-o"></i> Moto Komunitas </a></li>
       <li><a href="?module=testimoni"><i class="fa fa-circle-o"></i> Data Testimoni </a></li>
       <li><a href="?module=request"><i class="fa fa-circle-o"></i> Data Request Anggota Baru</a></li>
+      <li><a href="?module=company"><i class="fa fa-circle-o"></i> Data Profile Perusahaan</a></li>
     </ul>
   </li>
   <?php
@@ -51,6 +52,7 @@ if ($_SESSION['hak_akses']=='Super Admin') { ?>
       <li><a href="?module=motto"><i class="fa fa-circle-o"></i> Moto Komunitas </a></li>
       <li><a href="?module=testimoni"><i class="fa fa-circle-o"></i> Data Testimoni</a></li>
       <li><a href="?module=request"><i class="fa fa-circle-o"></i> Data Request Anggota Baru</a></li>
+      <li><a href="?module=company"><i class="fa fa-circle-o"></i> Data Profile Perusahaan</a></li>
     </ul>
   </li>
   <?php
@@ -68,6 +70,7 @@ if ($_SESSION['hak_akses']=='Super Admin') { ?>
       <li><a href="?module=motto"><i class="fa fa-circle-o"></i> Moto Komunitas </a></li>
       <li><a href="?module=testimoni"><i class="fa fa-circle-o"></i> Data Testimoni  </a></li>
       <li><a href="?module=request"><i class="fa fa-circle-o"></i> Data Request Anggota Baru</a></li>
+      <li><a href="?module=company"><i class="fa fa-circle-o"></i> Data Profile Perusahaan</a></li>
     </ul>
   </li>
   <?php

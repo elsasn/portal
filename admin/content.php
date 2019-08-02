@@ -72,6 +72,14 @@ else {
 		include "modules/testimoni/form.php";
 	}
 
+	elseif ($_GET['module'] == 'company') {
+		include "modules/company/view.php";
+	}
+	// jika halaman konten yang dipilih form user, panggil file form user
+	elseif ($_GET['module'] == 'form_company') {
+		include "modules/company/form.php";
+	}
+
 	elseif ($_GET['module'] == 'akun') {
 		include "modules/akun/view.php";
 	}

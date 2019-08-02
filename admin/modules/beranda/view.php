@@ -124,9 +124,7 @@ require_once "config/fungsi_calendar.php";
             </div>
             </div><!-- ./col -->
             <!-- Display event calendar -->
-            <div id="calendar_div">
-              <?php echo getCalender(); ?>
-            </div>
+            
             
             </div><!-- /.row -->
             </section><!-- /.content -->

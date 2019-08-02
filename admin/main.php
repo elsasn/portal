@@ -83,7 +83,7 @@ session_start();
       <header class="main-header">
         <!-- Logo -->
         <a href="?module=beranda" class="logo">
-          <img style="margin-top:-15px;margin-right:5px" src="assets/img/" alt=""> 
+          <!-- <img style="margin-top:-15px;margin-right:5px" src="assets/img/" alt=""> --> 
           <span style="font-size:30px">Dashboard</span>
         </a>
         <!-- Header Navbar: style can be found in header.less -->
